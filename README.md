@@ -8,15 +8,15 @@ ALGORITHM
 
   Program 1(Bitwise)
 
-  Declare and initialize two integer variables, a and b.
+ 1) Declare and initialize two integer variables, a and b.
 
-  Perform bitwise operations on a and b:
+ 2) Perform bitwise operations on a and b:
 
-  Compute bitwise AND, OR, XOR, NOT (for both a and b).
+ 3)Compute bitwise AND, OR, XOR, NOT (for both a and b).
 
-  Compute left shift and right shift for both a and b.
+ 4)Compute left shift and right shift for both a and b.
 
-   Output the results of all bitwise operations.
+ 5)Output the results of all bitwise operations.
 
 PROGRAM 2(RESET)
 

@@ -20,21 +20,21 @@ ALGORITHM
 
 PROGRAM 2(RESET)
 
-   Use standard namespace for simplified name access.
+   1) Use standard namespace for simplified name access.
 
-   Start main program.
+   2) Start main program.
 
-   Declare and initialize an integer variable n with value 12.
+   3) Declare and initialize an integer variable n with value 12.
 
-   Declare variables for bit position inputs and operation outputs.
+   4) Declare variables for bit position inputs and operation outputs.
 
-  Prompt and store user input for bit position to set.
+  5) Prompt and store user input for bit position to set.
 
-  Set the specified bit in n using bitwise OR and left shift, then output the result.
+  6) Set the specified bit in n using bitwise OR and left shift, then output the result.
 
-  Prompt and store user input for bit position to reset.
+  7) Prompt and store user input for bit position to reset.
 
-   Reset the specified bit in n using bitwise AND and NOT with left shift, then output the result.
+   8) Reset the specified bit in n using bitwise AND and NOT with left shift, then output the result.
 
 THEORY:
 

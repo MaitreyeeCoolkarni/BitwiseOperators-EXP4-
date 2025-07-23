@@ -18,6 +18,12 @@ Bitwise operators work directly on the binary digits (bits) of integer values, a
 
 ---
 
+In C++ (and other programming languages), bit set and bit reset refer to operations that manipulate individual bits within an integer's binary representation using bitwise operators. These operations are commonly used in low-level programming, such as working with hardware registers, flags, or optimizing data storage.
+
+Definitions:
+Bit Set: Setting a bit means changing a specific bit in a number to 1, regardless of its previous value. This is typically done using the bitwise OR (|) operator with a mask.
+Bit Reset (or Clear): Resetting a bit means changing a specific bit in a number to 0, regardless of its previous value. This is typically done using the bitwise AND (&) operator with the complement of a mask.
+
 ## Algorithm
 
 ### Program 1 – Bitwise Operations

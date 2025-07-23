@@ -12,11 +12,11 @@ ALGORITHM
 
  2) Perform bitwise operations on a and b:
 
- 3)Compute bitwise AND, OR, XOR, NOT (for both a and b).
+ 3) Compute bitwise AND, OR, XOR, NOT (for both a and b).
 
- 4)Compute left shift and right shift for both a and b.
+ 4) Compute left shift and right shift for both a and b.
 
- 5)Output the results of all bitwise operations.
+ 5) Output the results of all bitwise operations.
 
 PROGRAM 2(RESET)
 

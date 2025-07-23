@@ -1,60 +1,44 @@
-# BitwiseOperators-EXP4-
+# Bitwise Operators in C++
 
-AIM-To learn bitwise functions(1 & 0)
+Aim: To study and implement C++ Bitwise Operators  
+Tools Used: VS Code or Programiz Online Compiler
 
-APPARATUS:VS code/Programiz
+---
 
-ALGORITHM
+## Theory
 
-  Program 1(Bitwise)
+Bitwise operators work directly on the binary digits (bits) of integer values, allowing programmers to manipulate data at its most fundamental level. These operators enable precise control over individual bits, making them useful in hardware control, cryptography, and performance optimization.
 
- 1) Declare and initialize two integer variables, a and b.
+- Bitwise AND (&): Compares each bit of a and b. Result is 1 only if both bits are 1.  
+- Bitwise OR (|): Compares each bit of a and b. Result is 1 if at least one bit is 1.  
+- Bitwise NOT (~): Flips all bits of the operand.  
+- Bitwise XOR (^): Compares each bit of a and b. Result is 1 if the bits are different.  
+- Left Shift (<<): Shifts bits of a to the left by n positions (multiplies by 2ⁿ).  
+- Right Shift (>>): Shifts bits of a to the right by n positions (divides by 2ⁿ).
 
- 2) Perform bitwise operations on a and b:
+---
 
- 3) Compute bitwise AND, OR, XOR, NOT (for both a and b).
+## Algorithm
 
- 4) Compute left shift and right shift for both a and b.
+### Program 1 – Bitwise Operations
 
- 5) Output the results of all bitwise operations.
+1. Declare and initialize two integer variables, a and b.  
+2. Perform bitwise AND, OR, XOR, NOT on both a and b.  
+3. Compute left shift and right shift for both a and b.  
+4. Output all results.
 
-PROGRAM 2(RESET)
+### Program 2 – Bit Set/Reset
 
-   1) Use standard namespace for simplified name access.
+1. Use the standard namespace.  
+2. Declare an integer variable n with value 12.  
+3. Ask user for a bit position to set.  
+4. Set the bit using OR and left shift. Output the result.  
+5. Ask user for a bit position to reset.  
+6. Reset the bit using AND with NOT and left shift. Output the result.
 
-   2) Start main program.
+---
 
-   3) Declare and initialize an integer variable n with value 12.
+## Conclusion
 
-   4) Declare variables for bit position inputs and operation outputs.
+This program effectively demonstrates the use of bitwise operators in C++. Bitwise operations are essential in systems-level programming, offering optimized performance for binary-level data manipulation.
 
-  5) Prompt and store user input for bit position to set.
-
-  6) Set the specified bit in n using bitwise OR and left shift, then output the result.
-
-  7) Prompt and store user input for bit position to reset.
-
-   8) Reset the specified bit in n using bitwise AND and NOT with left shift, then output the result.
-
-THEORY:
-
-1. Bitwise AND (&)
-Operation: Compares each bit of a and b. If both bits are 1, the result is 1; otherwise, it is 0.
-
-2. Bitwise OR (|)
-Operation: Compares each bit of a and b. If either bit is 1, the result is 1.
-
-3. Bitwise NOT (~)
-Operation: Flips all the bits of the operand. Converts all 0s to 1s and vice versa.
-
-5. Bitwise XOR (^)
-Operation: Compares each bit of a and b. If the bits are different, the result is 1; otherwise, it is 0.
-
-6. Left Shift (<<)
-Operation: Shifts all bits of a to the left by n positions, inserting 0s from the right. This is equivalent to multiplying the number by 2ⁿ.
-
-8. Right Shift (>>) 
-Operation: Shifts all bits of a to the right by n positions, discarding bits on the right. This is equivalent to integer division by 2ⁿ
-
-Conclusion:
-This program effectively demonstrates how various bitwise operations work in C++. Bitwise operators are powerful tools for low-level data manipulation, offering optimized performance in situations where direct binary manipulation is required.

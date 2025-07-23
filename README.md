@@ -5,7 +5,19 @@ AIM-To learn bitwise functions(1 & 0)
 APPARATUS:VS code/Programiz
 
 ALGORITHM
-Program 1(
+Program 1(Bitwise)
+
+Declare and initialize two integer variables, a and b.
+
+Perform bitwise operations on a and b:
+
+Compute bitwise AND, OR, XOR, NOT (for both a and b).
+
+Compute left shift and right shift for both a and b.
+
+Output the results of all bitwise operations.
+
+THEORY:
 
 1. Bitwise AND (&)
 Operation: Compares each bit of a and b. If both bits are 1, the result is 1; otherwise, it is 0.

@@ -6,35 +6,35 @@ APPARATUS:VS code/Programiz
 
 ALGORITHM
 
-Program 1(Bitwise)
+  Program 1(Bitwise)
 
-Declare and initialize two integer variables, a and b.
+  Declare and initialize two integer variables, a and b.
 
-Perform bitwise operations on a and b:
+  Perform bitwise operations on a and b:
 
-Compute bitwise AND, OR, XOR, NOT (for both a and b).
+  Compute bitwise AND, OR, XOR, NOT (for both a and b).
 
-Compute left shift and right shift for both a and b.
+  Compute left shift and right shift for both a and b.
 
-Output the results of all bitwise operations.
+   Output the results of all bitwise operations.
 
 PROGRAM 2(RESET)
 
-Use standard namespace for simplified name access.
+   Use standard namespace for simplified name access.
 
-Start main program.
+   Start main program.
 
-Declare and initialize an integer variable n with value 12.
+   Declare and initialize an integer variable n with value 12.
 
-Declare variables for bit position inputs and operation outputs.
+   Declare variables for bit position inputs and operation outputs.
 
-Prompt and store user input for bit position to set.
+  Prompt and store user input for bit position to set.
 
-Set the specified bit in n using bitwise OR and left shift, then output the result.
+  Set the specified bit in n using bitwise OR and left shift, then output the result.
 
-Prompt and store user input for bit position to reset.
+  Prompt and store user input for bit position to reset.
 
-Reset the specified bit in n using bitwise AND and NOT with left shift, then output the result.
+   Reset the specified bit in n using bitwise AND and NOT with left shift, then output the result.
 
 THEORY:
 

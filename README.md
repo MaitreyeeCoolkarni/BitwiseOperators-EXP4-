@@ -1,8 +1,11 @@
 # BitwiseOperators-EXP4-
 
-This program illustrates the use of bitwise operators in C++, which operate directly on the binary representation of integers. Bitwise operations are low-level operations that are often used in systems programming, embedded systems, and performance-critical applications.
+AIM-To learn bitwise functions(1 & 0)
 
-The following bitwise operations are demonstrated:
+APPARATUS:VS code/Programiz
+
+ALGORITHM
+Program 1(
 
 1. Bitwise AND (&)
 Operation: Compares each bit of a and b. If both bits are 1, the result is 1; otherwise, it is 0.
